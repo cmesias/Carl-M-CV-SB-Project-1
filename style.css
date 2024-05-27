@@ -1,3 +1,4 @@
+/* Set the font family to 'Plus Jakarta Sans' from google fonts and set it to a weight of 700 */
 html {
     font-family: "Plus Jakarta Sans", Arial, sans-serif;
     font-weight: 700;
@@ -14,6 +15,31 @@ a {
 }
 
 a:hover {
+    text-decoration: underline;
+}
+
+/* Tools heading */
+#table-heading {
+    font-size: 2rem;
+}
+
+/* For all table head elements */
+.table-heads {
+    font-size: 1.3rem;
+    text-decoration: underline white dotted;
+}
+
+.table-head-1:hover {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.table-head-2:hover {
+    text-decoration: underline;
+    text-transform: uppercase;
+}
+
+.table-head-3:hover {
     text-decoration: underline;
     text-transform: uppercase;
 }
